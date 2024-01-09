@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: black;
+}
+.container{
+    height: 400px;
+    width:280px;
+    margin-top: 70px;
+    margin-left: 45px;
+    
+    
+}
+.c1{
+    height: 200px;
+    width: 200px;
+    border-radius: 120px;
+    background:linear-gradient( blue,#e355ff) ;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -30px;
+
+}
+.c2{
+    height: 200px;
+    width: 200px;
+    border-radius: 120px;
+    background:linear-gradient( yellow,red) ;
+    position: absolute;
+    margin-left:  730px;
+    margin-top:1520px;
+}
+.form{
+    height: 1600px;
+    width:800px;
+    background-color: rgba(255,255,255,0.07) ;
+    position: absolute;
+    border-radius: 8px;
+    backdrop-filter:blur(5px);
+    border:2px solid rgba(255,255,255,0.09);
+    box-shadow:0 0 40px rgba(8,7,16,0.6);
+    color: white;
+    margin-top: -350px;
+    margin-left: 95px;
+    
+}
+h3{
+    text-align: center;
+    font-family:Times New Roman;
+    color: white;
+    padding: 15px 0;
+    font-size: 70px;
+    margin-top: 10px;
+}
+h3 span{
+    font-size: 45px;
+}
+
+.uid{
+    margin-left: 70px;
+    display: block;
+    margin-top: 50px;
+    font-size: 45px;
+}
+.class{
+    display: block;
+    height: 70px;
+    width: 81%;
+    border:2px solid rgba(255,255,255,0.09);
+    border-radius: 2px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.07) ;
+    padding: 0 3px;
+    color: white;
+    margin-top: px;
+    font-weight: 300px;
+    font-size: 40px;
+}
+::placeholder{
+    color: whitesmoke;
+    font-size: 30px;
+    
+}
+.button{
+    width: 81%;
+    height: 80px;
+    margin-top: 60px;
+    border-radius: 5px;
+    border:2px solid rgba(255,255,255,0.09);
+    cursor: pointer;
+    color: blue;
+    font: bold;
+    font-size: 40px;
+}
+.select{
+    width: 82%;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border:2px solid rgba(255,255,255,0.09);
+    font-size: 50px;
+}
+.check{
+    margin-left:70px;
+    margin-top: 70px;
+    cursor: pointer;
+    color: green;
+    size:50px;
+   
+    
+}
+input.check{
+    height:40px ;
+    width: 40px;
+    margin-top: 70px;
+}
+
+.text-size{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+.imgh1{
+    color: white;
+    font-size: 60px;
+}
+.h1{
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.h6img{
+    font-size: 20px;
+}
+.hl{
+    color: #8f9c8f98;
+    font-size: 26px;
+}
+.cl{
+    font-size: 3px;
+}
+.unimg{
+    border-radius: 100px;
+    border: 10px red;
+    
+}
